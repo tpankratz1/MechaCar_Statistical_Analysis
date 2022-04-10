@@ -60,6 +60,22 @@ Based on the T-Test run for Lot 3, it can be determined that based on a P-value 
 
 ![T-Test For Lot 3](Resources/ttest-lot3.png)
 
+## Study Design: MechaCar vs Competition
+
+Since purchasing a vehicle is a big decision for a consumer, it is beneficial for them to understand if there are is any correlation between different features or factors in the vehicle they're considering. One study that could help them in their decision making is the correlation between the overall cost of a vehicle and the annual cost to maintain the vehicle. For example, buying a competitor vehicle would mean higher annual maintenance costs than for a MechaCar.
+
+It would be beneficial for MechaCar to run a statistical study showing how maintenance costs of their vehicles are lower than competitors, compared to overall cost.
+
+The null hypothesis (H0) would be that maintenance costs of their vehicles are lower than competitors, compared to overall cost. The alternative hypothesis (Ha) would be that maintenance costs of their vehicles are not lower than competitors, compared to overall cost.
+
+A T-test would be run to show consumers why it is beneficial to buy a MechaCar instead of a competitor vehicle, to show that annual maintenance costs for a MechaCar would be lower than competitors, and that consumers would save money over the length of their ownership.
+
+The data that would be needed: 
+- Overall costs of a MechaCar
+- Overall costs of competitor vehicles
+- Maintenance costs of a MechaCar vehicle
+- Maintenance costs of competitor vehicles
+
 
 
 
