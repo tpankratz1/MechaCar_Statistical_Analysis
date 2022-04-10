@@ -27,14 +27,43 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### All Coils
 Across all lots, the suspension coils appear to meet design specifications for Variance, because at a little above 62 PSI, they are below the 100 PSI variance threshold. See below.
 
-![Multiple Linear Regression - MPG](Resources/total_summary.png)
+![Total Summary](Resources/total_summary.png)
 
 ### Coils by Lot
 As the data is broken down by lot, it's clear that not all lots meet design specifications on Variance. Lots 1 and 2 fall well within the specs, but lot 3 is significantly above the 100 PSI variance threshold, at a little above 170 PSI. See below.
 
-![Multiple Linear Regression - MPG](Resources/lot_summary.png)
+![Lot Summary](Resources/lot_summary.png)
 
 ## T-Tests on Suspension Coils
+
+T-tests were run to determine if:
+1. The mean PSI in all of the manufacturing lots were statistically different from the mean 1,500 PSI in the overall population.
+2. The mean PSI in each of the manufacturing lots (samples) were statistically different from the mean 1,500 PSI in the overall population.
+
+### T-Test For All Lots
+Based on the T-Test run for all lots, it can be determined that based on a P-value of 0.06028, which is higher than 0.05, we can't confidently say that the sample mean is different than the population mean of 1,500 PSI.
+
+![T-Test For All Lots](Resources/ttest-all.png)
+
+### T-Test For Lot 1
+Based on the T-Test run for Lot 1, it can be determined that based on a P-value of 1, which is higher than 0.05, we can't confidently say that the sample mean is different than the population mean of 1,500 PSI. See below.
+
+![T-Test For Lot 1](Resources/ttest-lot1.png)
+
+### T-Test For Lot 2
+Based on the T-Test run for Lot 2, it can be determined that based on a P-value of 0.6072, which is higher than 0.05, we can't confidently say that the sample mean is different than the population mean of 1,500 PSI. See below.
+
+![T-Test For Lot 2](Resources/ttest-lot2.png)
+
+### T-Test For Lot 3
+Based on the T-Test run for Lot 3, it can be determined that based on a P-value of 0.04168, which is lower than 0.05, we can confidently say that the sample mean is different than the population mean of 1,500 PSI. See below.
+
+![T-Test For Lot 3](Resources/ttest-lot3.png)
+
+
+
+
+
 
 
 
